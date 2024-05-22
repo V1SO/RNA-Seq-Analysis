@@ -33,6 +33,7 @@ Expression
 Differential Expression
 DE Visualization
 DESEQ and Kallisto for Reference-Free Abundance Estimation
+
 Module 4 - Isoform Discovery and Alternative Expression
 Reference Guided Transcript Assembly
 
