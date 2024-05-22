@@ -15,6 +15,7 @@ Module 0 - Introduction
 Authors 
 Citation and Supplementary Materials
 Syntax
+
 Module 1 - Introduction to RNA sequencing
 Installation
 Reference Genomes
@@ -22,29 +23,26 @@ Annotations
 Indexing
 RNA-seq Data
 Pre-Alignment QC
+MutiQC - Trimmomatic
+
 Module 2 - RNA-seq Alignment and Visualization
 Adapter Trim
 Alignment
 IGV
 Alignment Visualization
 Alignment QC
-Module 3 - Expression and Differential Expression
-Expression
-Differential Expression
+
+Module 3 - Differential Expression
 DE Visualization
-DESEQ and Kallisto for Reference-Free Abundance Estimation
+DESEQ for Reference-Free Abundance Estimation
 
-Module 4 - Isoform Discovery and Alternative Expression
-Reference Guided Transcript Assembly
+Module 4 - SAM to BAM conversion using SAMTools
 
-Module 5 - De novo transcript reconstruction
-De novo RNA-Seq Assembly and Analysis Using Trinity
+Module 5 -Differential Gene Expression of Control vs CAP treated U87MG cells
 
 Module 6 - Functional Annotation of Transcripts
-Functional Annotation of Assembled Transcripts Using Trinotate
+Functional Annotation of Assembled Transcripts
 Appendix
 Saving Your Results
 Abbreviations
-Practical Exercise Solutions
-Integrated Assignment
 Proposed Improvements
