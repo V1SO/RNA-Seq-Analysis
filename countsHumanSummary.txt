@@ -1,0 +1,15 @@
+Status	./_{Control2_ForwardPaired_Lane1.fastq}_Aligned_sorted	./_{Control2_ForwardPaired_Lane2.fastq}_Aligned_sorted	./_{Control2_ForwardPaired_Lane3.fastq}_Aligned_sorted	./_{Control2_ForwardPaired_Lane4.fastq}_Aligned_sorted	./_{Plasma1hr2_ForwardPaired_Lane1.fastq}_Aligned_sorted	./_{Plasma1hr2_ForwardPaired_Lane2.fastq}_Aligned_sorted	./_{Plasma1hr2_ForwardPaired_Lane3.fastq}_Aligned_sorted	./_{Plasma1hr2_ForwardPaired_Lane4.fastq}_Aligned_sorted	./_{Plasma24hr1_ForwardPaired_Lane1.fastq}_Aligned_sorted	./_{Plasma24hr1_ForwardPaired_Lane2.fastq}_Aligned_sorted	./_{Plasma24hr1_ForwardPaired_Lane3.fastq}_Aligned_sorted	./_{Plasma24hr1_ForwardPaired_Lane4.fastq}_Aligned_sorted	./_{Plasma48hrTMZ2_ForwardPaired_Lane1.fastq}_Aligned_sorted	./_{Plasma48hrTMZ2_ForwardPaired_Lane2.fastq}_Aligned_sorted	./_{Plasma48hrTMZ2_ForwardPaired_Lane3.fastq}_Aligned_sorted	./_{Plasma48hrTMZ2_ForwardPaired_Lane4.fastq}_Aligned_sorted
+Assigned	4520699	4581112	4302299	4342139	3184580	3274761	3035481	3106527	2384651	2453812	2256631	2308285	1980103	2036820	1872749	1914233
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	285444	303744	268717	292293	1259993	1293506	1215262	1244230	198897	209871	186202	201305	161082	168102	153371	161394
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	2262707	2343350	2193713	2243801	1393436	1453440	1346566	1389412	792723	830396	761393	790105	505420	528766	486155	500142
