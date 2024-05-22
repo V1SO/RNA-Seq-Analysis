@@ -1,6 +1,6 @@
 RNA-Seq Analysis: High-throughput RNA-Seq and In-silico analysis of glioblastoma cells treated with cold atmospheric plasma and temozolomide.
 
-A pipeline for RNA-seq analysis of treated U87MG cells using CAP and TMZ vs Untreated cells 
+A pipeline for RNA-seq analysis of treated U87MG cells using CAP and TMZ vs untreated cells: 
 An introduction to next-generation sequencing, file formats, FastQC, Trimmoatic, reference genomes, gene annotation, expression analysis, differential expression analysis, data visualization, and interpretation.
 
 This repository is used to store code and certain raw materials for a detailed RNA-seq tutorial. To complete this tutorial, go to the RNA-seq tutorial wiki.
