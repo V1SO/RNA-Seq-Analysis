@@ -1,0 +1,689 @@
+[2019-10-11 10:13:19,674] multiqc                                            [DEBUG  ]  No MultiQC config found: /GWSPH/home/tyden46/.local/lib/python3.7/site-packages/multiqc_config.yaml
+[2019-10-11 10:13:19,674] multiqc                                            [DEBUG  ]  No MultiQC config found: /GWSPH/home/tyden46/.multiqc_config.yaml
+[2019-10-11 10:13:19,674] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2019-10-11 10:13:19,675] multiqc                                            [DEBUG  ]  Command used: /GWSPH/home/tyden46/.local/bin/multiqc ncbi/public/fastq/
+[2019-10-11 10:13:21,951] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.7
+[2019-10-11 10:13:21,951] multiqc                                            [INFO   ]  This is MultiQC v1.7
+[2019-10-11 10:13:21,951] multiqc                                            [DEBUG  ]  Command     : /GWSPH/home/tyden46/.local/bin/multiqc ncbi/public/fastq/
+[2019-10-11 10:13:21,951] multiqc                                            [DEBUG  ]  Working dir : /GWSPH/home/tyden46
+[2019-10-11 10:13:21,951] multiqc                                            [INFO   ]  Template    : default
+[2019-10-11 10:13:21,951] multiqc                                            [INFO   ]  Searching 'ncbi/public/fastq/'
+[2019-10-11 10:13:21,952] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, dedup, damageprofiler, picard, prokka, samblaster, samtools, bamtools, jellyfish, vcftools, longranger, stacks, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, minionqc, clusterflow, bcl2fastq, interop, flash
+[2019-10-11 10:13:21,953] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpel1zerda
+[2019-10-11 10:13:22,071] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443243_fastqc.html
+[2019-10-11 10:13:22,071] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443252.fastq
+[2019-10-11 10:13:22,072] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443165_fastqc.html
+[2019-10-11 10:13:22,072] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443255_fastqc.html
+[2019-10-11 10:13:22,072] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443180_fastqc.html
+[2019-10-11 10:13:22,072] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443181_fastqc.html
+[2019-10-11 10:13:22,073] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443189.fastq
+[2019-10-11 10:13:22,073] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443214.fastq
+[2019-10-11 10:13:22,074] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443196_fastqc.html
+[2019-10-11 10:13:22,074] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443163_fastqc.html
+[2019-10-11 10:13:22,074] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443172.fastq
+[2019-10-11 10:13:22,075] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443238.fastq
+[2019-10-11 10:13:22,075] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443257_fastqc.html
+[2019-10-11 10:13:22,076] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443149_fastqc.html
+[2019-10-11 10:13:22,076] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443219_fastqc.html
+[2019-10-11 10:13:22,076] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443239_fastqc.html
+[2019-10-11 10:13:22,077] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443250.fastq
+[2019-10-11 10:13:22,077] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443217_fastqc.html
+[2019-10-11 10:13:22,079] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443187.fastq
+[2019-10-11 10:13:22,079] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443241_fastqc.html
+[2019-10-11 10:13:22,079] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443182_fastqc.html
+[2019-10-11 10:13:22,080] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443174.fastq
+[2019-10-11 10:13:22,080] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443217.fastq
+[2019-10-11 10:13:22,080] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443236_fastqc.html
+[2019-10-11 10:13:22,080] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443201.fastq
+[2019-10-11 10:13:22,080] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443193_fastqc.html
+[2019-10-11 10:13:22,081] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443175.fastq
+[2019-10-11 10:13:22,081] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443256_fastqc.html
+[2019-10-11 10:13:22,081] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443222_fastqc.html
+[2019-10-11 10:13:22,082] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443171.fastq
+[2019-10-11 10:13:22,082] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443193.fastq
+[2019-10-11 10:13:22,083] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443187_fastqc.html
+[2019-10-11 10:13:22,084] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443148.fastq
+[2019-10-11 10:13:22,084] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443194.fastq
+[2019-10-11 10:13:22,084] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443198.fastq
+[2019-10-11 10:13:22,086] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443207.fastq
+[2019-10-11 10:13:22,086] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443157.fastq
+[2019-10-11 10:13:22,087] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443223_fastqc.html
+[2019-10-11 10:13:22,087] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443230.fastq
+[2019-10-11 10:13:22,087] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443186_fastqc.html
+[2019-10-11 10:13:22,088] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443215_fastqc.html
+[2019-10-11 10:13:22,088] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443259.fastq
+[2019-10-11 10:13:22,089] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443168_fastqc.html
+[2019-10-11 10:13:22,089] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443203.fastq
+[2019-10-11 10:13:22,089] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443227_fastqc.html
+[2019-10-11 10:13:22,089] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443211.fastq
+[2019-10-11 10:13:22,090] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443228_fastqc.html
+[2019-10-11 10:13:22,091] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443206_fastqc.html
+[2019-10-11 10:13:22,091] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443263.fastq
+[2019-10-11 10:13:22,092] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443232_fastqc.html
+[2019-10-11 10:13:22,092] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443212.fastq
+[2019-10-11 10:13:22,093] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443184_fastqc.html
+[2019-10-11 10:13:22,093] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443154.fastq
+[2019-10-11 10:13:22,094] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443205_fastqc.html
+[2019-10-11 10:13:22,094] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443234_fastqc.html
+[2019-10-11 10:13:22,094] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443152.fastq
+[2019-10-11 10:13:22,095] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443227.fastq
+[2019-10-11 10:13:22,095] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443200.fastq
+[2019-10-11 10:13:22,095] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443198_fastqc.html
+[2019-10-11 10:13:22,095] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443262_fastqc.html
+[2019-10-11 10:13:22,095] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443214_fastqc.html
+[2019-10-11 10:13:22,096] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443149.fastq
+[2019-10-11 10:13:22,096] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443160.fastq
+[2019-10-11 10:13:22,097] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443237.fastq
+[2019-10-11 10:13:22,098] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443225.fastq
+[2019-10-11 10:13:22,098] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443222.fastq
+[2019-10-11 10:13:22,098] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443150.fastq
+[2019-10-11 10:13:22,098] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443185_fastqc.html
+[2019-10-11 10:13:22,099] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443173.fastq
+[2019-10-11 10:13:22,099] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443216.fastq
+[2019-10-11 10:13:22,099] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443159.fastq
+[2019-10-11 10:13:22,100] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443247_fastqc.html
+[2019-10-11 10:13:22,101] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443150_fastqc.html
+[2019-10-11 10:13:22,101] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443204.fastq
+[2019-10-11 10:13:22,102] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443251_fastqc.html
+[2019-10-11 10:13:22,102] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443215.fastq
+[2019-10-11 10:13:22,102] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443170.fastq
+[2019-10-11 10:13:22,102] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443176_fastqc.html
+[2019-10-11 10:13:22,103] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443228.fastq
+[2019-10-11 10:13:22,104] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443232.fastq
+[2019-10-11 10:13:22,105] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443153.fastq
+[2019-10-11 10:13:22,105] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443180.fastq
+[2019-10-11 10:13:22,105] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443245_fastqc.html
+[2019-10-11 10:13:22,105] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443182.fastq
+[2019-10-11 10:13:22,106] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443183_fastqc.html
+[2019-10-11 10:13:22,106] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443244_fastqc.html
+[2019-10-11 10:13:22,107] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443147_fastqc.html
+[2019-10-11 10:13:22,107] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443166.fastq
+[2019-10-11 10:13:22,108] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443229.fastq
+[2019-10-11 10:13:22,109] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443155.fastq
+[2019-10-11 10:13:22,109] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443224_fastqc.html
+[2019-10-11 10:13:22,109] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443240.fastq
+[2019-10-11 10:13:22,110] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443209.fastq
+[2019-10-11 10:13:22,110] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443231.fastq
+[2019-10-11 10:13:22,111] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443221_fastqc.html
+[2019-10-11 10:13:22,111] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443151_fastqc.html
+[2019-10-11 10:13:22,112] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443175_fastqc.html
+[2019-10-11 10:13:22,112] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443230_fastqc.html
+[2019-10-11 10:13:22,112] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443238_fastqc.html
+[2019-10-11 10:13:22,112] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443260_fastqc.html
+[2019-10-11 10:13:22,113] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443261.fastq
+[2019-10-11 10:13:22,113] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443156_fastqc.html
+[2019-10-11 10:13:22,114] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443253.fastq
+[2019-10-11 10:13:22,114] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443204_fastqc.html
+[2019-10-11 10:13:22,115] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443162.fastq
+[2019-10-11 10:13:22,115] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443169.fastq
+[2019-10-11 10:13:22,115] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443171_fastqc.html
+[2019-10-11 10:13:22,115] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443153_fastqc.html
+[2019-10-11 10:13:22,116] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443209_fastqc.html
+[2019-10-11 10:13:22,116] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443199_fastqc.html
+[2019-10-11 10:13:22,116] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443195.fastq
+[2019-10-11 10:13:22,117] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443152_fastqc.html
+[2019-10-11 10:13:22,117] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443234.fastq
+[2019-10-11 10:13:22,118] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443216_fastqc.html
+[2019-10-11 10:13:22,118] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443202.fastq
+[2019-10-11 10:13:22,119] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443251.fastq
+[2019-10-11 10:13:22,120] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443229_fastqc.html
+[2019-10-11 10:13:22,120] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443154_fastqc.html
+[2019-10-11 10:13:22,120] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443218_fastqc.html
+[2019-10-11 10:13:22,120] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443163.fastq
+[2019-10-11 10:13:22,121] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443207_fastqc.html
+[2019-10-11 10:13:22,121] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443213.fastq
+[2019-10-11 10:13:22,121] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443255.fastq
+[2019-10-11 10:13:22,122] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443179_fastqc.html
+[2019-10-11 10:13:22,122] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443205.fastq
+[2019-10-11 10:13:22,122] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443248_fastqc.html
+[2019-10-11 10:13:22,123] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443220.fastq
+[2019-10-11 10:13:22,123] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443258.fastq
+[2019-10-11 10:13:22,123] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443161.fastq
+[2019-10-11 10:13:22,123] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443156.fastq
+[2019-10-11 10:13:22,123] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443178_fastqc.html
+[2019-10-11 10:13:22,123] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443263_fastqc.html
+[2019-10-11 10:13:22,124] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443248.fastq
+[2019-10-11 10:13:22,124] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443250_fastqc.html
+[2019-10-11 10:13:22,124] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443148_fastqc.html
+[2019-10-11 10:13:22,124] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443178.fastq
+[2019-10-11 10:13:22,124] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443213_fastqc.html
+[2019-10-11 10:13:22,124] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443208_fastqc.html
+[2019-10-11 10:13:22,125] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443244.fastq
+[2019-10-11 10:13:22,125] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443166_fastqc.html
+[2019-10-11 10:13:22,125] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443200_fastqc.html
+[2019-10-11 10:13:22,126] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443165.fastq
+[2019-10-11 10:13:22,126] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443259_fastqc.html
+[2019-10-11 10:13:22,127] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443211_fastqc.html
+[2019-10-11 10:13:22,127] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443173_fastqc.html
+[2019-10-11 10:13:22,127] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443226.fastq
+[2019-10-11 10:13:22,128] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443247.fastq
+[2019-10-11 10:13:22,128] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443236.fastq
+[2019-10-11 10:13:22,128] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443197.fastq
+[2019-10-11 10:13:22,128] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443161_fastqc.html
+[2019-10-11 10:13:22,128] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443194_fastqc.html
+[2019-10-11 10:13:22,129] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443231_fastqc.html
+[2019-10-11 10:13:22,129] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443151.fastq
+[2019-10-11 10:13:22,130] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443208.fastq
+[2019-10-11 10:13:22,130] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443258_fastqc.html
+[2019-10-11 10:13:22,130] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443167.fastq
+[2019-10-11 10:13:22,131] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443155_fastqc.html
+[2019-10-11 10:13:22,131] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443176.fastq
+[2019-10-11 10:13:22,131] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443159_fastqc.html
+[2019-10-11 10:13:22,131] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443239.fastq
+[2019-10-11 10:13:22,131] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443225_fastqc.html
+[2019-10-11 10:13:22,132] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443158.fastq
+[2019-10-11 10:13:22,132] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443164_fastqc.html
+[2019-10-11 10:13:22,132] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443212_fastqc.html
+[2019-10-11 10:13:22,133] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443172_fastqc.html
+[2019-10-11 10:13:22,133] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443192.fastq
+[2019-10-11 10:13:22,134] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443170_fastqc.html
+[2019-10-11 10:13:22,134] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443177_fastqc.html
+[2019-10-11 10:13:22,134] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443184.fastq
+[2019-10-11 10:13:22,134] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443262.fastq
+[2019-10-11 10:13:22,135] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443169_fastqc.html
+[2019-10-11 10:13:22,135] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443219.fastq
+[2019-10-11 10:13:22,135] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443179.fastq
+[2019-10-11 10:13:22,135] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443196.fastq
+[2019-10-11 10:13:22,137] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443261_fastqc.html
+[2019-10-11 10:13:22,137] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443210.fastq
+[2019-10-11 10:13:22,137] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443224.fastq
+[2019-10-11 10:13:22,137] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443235_fastqc.html
+[2019-10-11 10:13:22,137] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443235.fastq
+[2019-10-11 10:13:22,137] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443168.fastq
+[2019-10-11 10:13:22,138] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443185.fastq
+[2019-10-11 10:13:22,138] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443203_fastqc.html
+[2019-10-11 10:13:22,139] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443181.fastq
+[2019-10-11 10:13:22,139] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443191_fastqc.html
+[2019-10-11 10:13:22,140] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443189_fastqc.html
+[2019-10-11 10:13:22,140] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443199.fastq
+[2019-10-11 10:13:22,140] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443242_fastqc.html
+[2019-10-11 10:13:22,141] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443256.fastq
+[2019-10-11 10:13:22,141] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443218.fastq
+[2019-10-11 10:13:22,141] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443249_fastqc.html
+[2019-10-11 10:13:22,141] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443147.fastq
+[2019-10-11 10:13:22,142] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443243.fastq
+[2019-10-11 10:13:22,143] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443233_fastqc.html
+[2019-10-11 10:13:22,143] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443223.fastq
+[2019-10-11 10:13:22,143] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443192_fastqc.html
+[2019-10-11 10:13:22,144] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443167_fastqc.html
+[2019-10-11 10:13:22,144] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443253_fastqc.html
+[2019-10-11 10:13:22,144] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443245.fastq
+[2019-10-11 10:13:22,145] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443183.fastq
+[2019-10-11 10:13:22,145] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443254_fastqc.html
+[2019-10-11 10:13:22,145] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443246_fastqc.html
+[2019-10-11 10:13:22,146] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443157_fastqc.html
+[2019-10-11 10:13:22,147] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443226_fastqc.html
+[2019-10-11 10:13:22,147] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443220_fastqc.html
+[2019-10-11 10:13:22,147] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443164.fastq
+[2019-10-11 10:13:22,147] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443190_fastqc.html
+[2019-10-11 10:13:22,148] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443188.fastq
+[2019-10-11 10:13:22,148] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443254.fastq
+[2019-10-11 10:13:22,149] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443240_fastqc.html
+[2019-10-11 10:13:22,149] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443252_fastqc.html
+[2019-10-11 10:13:22,149] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443242.fastq
+[2019-10-11 10:13:22,149] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443257.fastq
+[2019-10-11 10:13:22,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443237_fastqc.html
+[2019-10-11 10:13:22,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443160_fastqc.html
+[2019-10-11 10:13:22,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443249.fastq
+[2019-10-11 10:13:22,151] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443191.fastq
+[2019-10-11 10:13:22,151] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443246.fastq
+[2019-10-11 10:13:22,152] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443195_fastqc.html
+[2019-10-11 10:13:22,152] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443188_fastqc.html
+[2019-10-11 10:13:22,152] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443197_fastqc.html
+[2019-10-11 10:13:22,152] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443202_fastqc.html
+[2019-10-11 10:13:22,153] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443241.fastq
+[2019-10-11 10:13:22,153] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443174_fastqc.html
+[2019-10-11 10:13:22,153] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443162_fastqc.html
+[2019-10-11 10:13:22,153] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443260.fastq
+[2019-10-11 10:13:22,154] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443158_fastqc.html
+[2019-10-11 10:13:22,154] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443186.fastq
+[2019-10-11 10:13:22,154] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443210_fastqc.html
+[2019-10-11 10:13:22,155] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443233.fastq
+[2019-10-11 10:13:22,156] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443221.fastq
+[2019-10-11 10:13:22,156] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443201_fastqc.html
+[2019-10-11 10:13:22,156] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443206.fastq
+[2019-10-11 10:13:22,156] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443190.fastq
+[2019-10-11 10:13:22,157] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443177.fastq
+[2019-10-11 10:13:22,157] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443234_trimmed.fastq
+[2019-10-11 10:13:22,157] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443258_trimmed.fastq
+[2019-10-11 10:13:22,157] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443159_trimmed.fastq
+[2019-10-11 10:13:22,157] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443172_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443247_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443235_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443178_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443162_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443153_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443263_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443176_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443192_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443160_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443256_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443169_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443252_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443205_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443208_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443236_trimmed.fastq
+[2019-10-11 10:13:22,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443257_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443158_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443253_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443155_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443240_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443201_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443261_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443184_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443196_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443217_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443237_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443259_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443207_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443161_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443167_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443244_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443219_trimmed.fastq
+[2019-10-11 10:13:22,159] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443260_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443148_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443168_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443215_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443250_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443220_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443154_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443190_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443238_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443171_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443213_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443166_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443164_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443216_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443183_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443225_trimmed.fastq
+[2019-10-11 10:13:22,160] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443228_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443149_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443198_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443194_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443195_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443185_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443147_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443187_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443202_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443233_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443151_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443197_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443156_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443226_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443203_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443255_trimmed.fastq
+[2019-10-11 10:13:22,161] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443249_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443200_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443227_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443181_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443224_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443204_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443175_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443165_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443251_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443218_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443248_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443242_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443246_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443180_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443245_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443209_trimmed.fastq
+[2019-10-11 10:13:22,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443179_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443210_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443214_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443206_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443221_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443170_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443157_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443173_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443239_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443232_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443254_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443222_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443262_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443182_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443223_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443189_trimmed.fastq
+[2019-10-11 10:13:22,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443241_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443191_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443150_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443186_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443193_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443243_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443211_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443152_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443174_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443212_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443230_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443177_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443199_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443163_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443231_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443188_trimmed.fastq
+[2019-10-11 10:13:22,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443229_trimmed.fastq
+[2019-10-11 10:13:22,165] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443261_trimmed_fastqc.html
+[2019-10-11 10:13:22,165] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443162_trimmed_fastqc.html
+[2019-10-11 10:13:22,165] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443218_trimmed_fastqc.html
+[2019-10-11 10:13:22,165] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443250_trimmed_fastqc.html
+[2019-10-11 10:13:22,165] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443227_trimmed_fastqc.html
+[2019-10-11 10:13:22,166] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443164_trimmed_fastqc.html
+[2019-10-11 10:13:22,166] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443230_trimmed_fastqc.html
+[2019-10-11 10:13:22,166] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443221_trimmed_fastqc.html
+[2019-10-11 10:13:22,166] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443190_trimmed_fastqc.html
+[2019-10-11 10:13:22,166] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443170_trimmed_fastqc.html
+[2019-10-11 10:13:22,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443176_trimmed_fastqc.html
+[2019-10-11 10:13:22,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443156_trimmed_fastqc.html
+[2019-10-11 10:13:22,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443241_trimmed_fastqc.html
+[2019-10-11 10:13:22,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443168_trimmed_fastqc.html
+[2019-10-11 10:13:22,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443256_trimmed_fastqc.html
+[2019-10-11 10:13:22,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443197_trimmed_fastqc.html
+[2019-10-11 10:13:22,167] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443202_trimmed_fastqc.html
+[2019-10-11 10:13:22,168] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443263_trimmed_fastqc.html
+[2019-10-11 10:13:22,168] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443194_trimmed_fastqc.html
+[2019-10-11 10:13:22,168] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443185_trimmed_fastqc.html
+[2019-10-11 10:13:22,168] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443259_trimmed_fastqc.html
+[2019-10-11 10:13:22,168] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443249_trimmed_fastqc.html
+[2019-10-11 10:13:22,168] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443151_trimmed_fastqc.html
+[2019-10-11 10:13:22,169] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443184_trimmed_fastqc.html
+[2019-10-11 10:13:22,169] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443244_trimmed_fastqc.html
+[2019-10-11 10:13:22,170] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443260_trimmed_fastqc.html
+[2019-10-11 10:13:22,170] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443149_trimmed_fastqc.html
+[2019-10-11 10:13:22,170] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443163_trimmed_fastqc.html
+[2019-10-11 10:13:22,170] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443226_trimmed_fastqc.html
+[2019-10-11 10:13:22,170] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443204_trimmed_fastqc.html
+[2019-10-11 10:13:22,170] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443196_trimmed_fastqc.html
+[2019-10-11 10:13:22,171] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443173_trimmed_fastqc.html
+[2019-10-11 10:13:22,171] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443228_trimmed_fastqc.html
+[2019-10-11 10:13:22,171] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443237_trimmed_fastqc.html
+[2019-10-11 10:13:22,171] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443246_trimmed_fastqc.html
+[2019-10-11 10:13:22,171] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443258_trimmed_fastqc.html
+[2019-10-11 10:13:22,172] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443148_trimmed_fastqc.html
+[2019-10-11 10:13:22,172] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443223_trimmed_fastqc.html
+[2019-10-11 10:13:22,172] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443147_trimmed_fastqc.html
+[2019-10-11 10:13:22,172] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443242_trimmed_fastqc.html
+[2019-10-11 10:13:22,172] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443235_trimmed_fastqc.html
+[2019-10-11 10:13:22,173] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443211_trimmed_fastqc.html
+[2019-10-11 10:13:22,173] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443172_trimmed_fastqc.html
+[2019-10-11 10:13:22,173] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443195_trimmed_fastqc.html
+[2019-10-11 10:13:22,173] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443203_trimmed_fastqc.html
+[2019-10-11 10:13:22,173] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443152_trimmed_fastqc.html
+[2019-10-11 10:13:22,173] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443155_trimmed_fastqc.html
+[2019-10-11 10:13:22,173] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443205_trimmed_fastqc.html
+[2019-10-11 10:13:22,174] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443220_trimmed_fastqc.html
+[2019-10-11 10:13:22,174] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443158_trimmed_fastqc.html
+[2019-10-11 10:13:22,174] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443247_trimmed_fastqc.html
+[2019-10-11 10:13:22,174] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443243_trimmed_fastqc.html
+[2019-10-11 10:13:22,174] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443193_trimmed_fastqc.html
+[2019-10-11 10:13:22,174] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443166_trimmed_fastqc.html
+[2019-10-11 10:13:22,175] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443208_trimmed_fastqc.html
+[2019-10-11 10:13:22,175] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443224_trimmed_fastqc.html
+[2019-10-11 10:13:22,175] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443232_trimmed_fastqc.html
+[2019-10-11 10:13:22,175] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443262_trimmed_fastqc.html
+[2019-10-11 10:13:22,176] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443225_trimmed_fastqc.html
+[2019-10-11 10:13:22,176] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443171_trimmed_fastqc.html
+[2019-10-11 10:13:22,176] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443239_trimmed_fastqc.html
+[2019-10-11 10:13:22,176] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443198_trimmed_fastqc.html
+[2019-10-11 10:13:22,176] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443180_trimmed_fastqc.html
+[2019-10-11 10:13:22,176] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443229_trimmed_fastqc.html
+[2019-10-11 10:13:22,176] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443187_trimmed_fastqc.html
+[2019-10-11 10:13:22,176] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443254_trimmed_fastqc.html
+[2019-10-11 10:13:22,177] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443188_trimmed_fastqc.html
+[2019-10-11 10:13:22,177] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443210_trimmed_fastqc.html
+[2019-10-11 10:13:22,177] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443191_trimmed_fastqc.html
+[2019-10-11 10:13:22,178] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443199_trimmed_fastqc.html
+[2019-10-11 10:13:22,178] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443174_trimmed_fastqc.html
+[2019-10-11 10:13:22,178] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443165_trimmed_fastqc.html
+[2019-10-11 10:13:22,178] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443186_trimmed_fastqc.html
+[2019-10-11 10:13:22,178] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443231_trimmed_fastqc.html
+[2019-10-11 10:13:22,179] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443245_trimmed_fastqc.html
+[2019-10-11 10:13:22,179] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443240_trimmed_fastqc.html
+[2019-10-11 10:13:22,179] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443175_trimmed_fastqc.html
+[2019-10-11 10:13:22,179] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443253_trimmed_fastqc.html
+[2019-10-11 10:13:22,180] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443255_trimmed_fastqc.html
+[2019-10-11 10:13:22,180] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443233_trimmed_fastqc.html
+[2019-10-11 10:13:22,180] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443214_trimmed_fastqc.html
+[2019-10-11 10:13:22,180] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443236_trimmed_fastqc.html
+[2019-10-11 10:13:22,181] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443181_trimmed_fastqc.html
+[2019-10-11 10:13:22,181] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443153_trimmed_fastqc.html
+[2019-10-11 10:13:22,181] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443178_trimmed_fastqc.html
+[2019-10-11 10:13:22,181] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443159_trimmed_fastqc.html
+[2019-10-11 10:13:22,181] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443160_trimmed_fastqc.html
+[2019-10-11 10:13:22,182] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443234_trimmed_fastqc.html
+[2019-10-11 10:13:22,182] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443216_trimmed_fastqc.html
+[2019-10-11 10:13:22,182] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443182_trimmed_fastqc.html
+[2019-10-11 10:13:22,182] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443189_trimmed_fastqc.html
+[2019-10-11 10:13:22,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443183_trimmed_fastqc.html
+[2019-10-11 10:13:22,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443251_trimmed_fastqc.html
+[2019-10-11 10:13:22,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443200_trimmed_fastqc.html
+[2019-10-11 10:13:22,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443167_trimmed_fastqc.html
+[2019-10-11 10:13:22,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443207_trimmed_fastqc.html
+[2019-10-11 10:13:22,184] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443206_trimmed_fastqc.html
+[2019-10-11 10:13:22,184] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443179_trimmed_fastqc.html
+[2019-10-11 10:13:22,185] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443212_trimmed_fastqc.html
+[2019-10-11 10:13:22,185] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443252_trimmed_fastqc.html
+[2019-10-11 10:13:22,185] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443177_trimmed_fastqc.html
+[2019-10-11 10:13:22,185] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443201_trimmed_fastqc.html
+[2019-10-11 10:13:22,185] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443161_trimmed_fastqc.html
+[2019-10-11 10:13:22,185] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443213_trimmed_fastqc.html
+[2019-10-11 10:13:22,185] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443257_trimmed_fastqc.html
+[2019-10-11 10:13:22,185] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443219_trimmed_fastqc.html
+[2019-10-11 10:13:22,185] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443248_trimmed_fastqc.html
+[2019-10-11 10:13:22,186] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443238_trimmed_fastqc.html
+[2019-10-11 10:13:22,186] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443215_trimmed_fastqc.html
+[2019-10-11 10:13:22,186] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443157_trimmed_fastqc.html
+[2019-10-11 10:13:22,186] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443217_trimmed_fastqc.html
+[2019-10-11 10:13:22,187] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443150_trimmed_fastqc.html
+[2019-10-11 10:13:22,187] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443209_trimmed_fastqc.html
+[2019-10-11 10:13:22,187] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443192_trimmed_fastqc.html
+[2019-10-11 10:13:22,187] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443222_trimmed_fastqc.html
+[2019-10-11 10:13:22,187] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443169_trimmed_fastqc.html
+[2019-10-11 10:13:22,187] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR2443154_trimmed_fastqc.html
+[2019-10-11 10:13:23,565] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2019-10-11 10:13:23,570] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2019-10-11 10:13:23,576] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2019-10-11 10:13:23,581] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2019-10-11 10:13:23,584] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2019-10-11 10:13:23,607] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2019-10-11 10:13:23,616] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2019-10-11 10:13:23,622] multiqc                                            [DEBUG  ]  No samples found: quast
+[2019-10-11 10:13:23,628] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2019-10-11 10:13:23,632] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2019-10-11 10:13:23,637] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2019-10-11 10:13:23,647] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2019-10-11 10:13:23,654] multiqc                                            [DEBUG  ]  No samples found: busco
+[2019-10-11 10:13:23,659] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2019-10-11 10:13:23,664] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2019-10-11 10:13:23,669] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2019-10-11 10:13:23,680] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2019-10-11 10:13:23,687] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2019-10-11 10:13:23,692] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2019-10-11 10:13:23,698] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2019-10-11 10:13:23,723] multiqc                                            [DEBUG  ]  No samples found: happy
+[2019-10-11 10:13:23,728] multiqc                                            [DEBUG  ]  No samples found: homer
+[2019-10-11 10:13:23,733] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2019-10-11 10:13:23,737] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2019-10-11 10:13:23,742] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2019-10-11 10:13:23,748] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2019-10-11 10:13:23,754] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2019-10-11 10:13:23,760] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2019-10-11 10:13:23,764] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2019-10-11 10:13:23,768] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2019-10-11 10:13:23,772] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2019-10-11 10:13:23,786] multiqc                                            [DEBUG  ]  No samples found: picard
+[2019-10-11 10:13:23,791] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2019-10-11 10:13:23,796] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2019-10-11 10:13:23,803] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2019-10-11 10:13:23,808] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2019-10-11 10:13:23,814] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2019-10-11 10:13:23,821] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2019-10-11 10:13:23,826] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2019-10-11 10:13:23,833] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2019-10-11 10:13:23,848] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2019-10-11 10:13:23,855] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2019-10-11 10:13:23,872] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2019-10-11 10:13:23,881] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2019-10-11 10:13:23,888] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2019-10-11 10:13:23,893] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2019-10-11 10:13:23,898] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2019-10-11 10:13:23,904] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2019-10-11 10:13:23,925] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2019-10-11 10:13:23,935] multiqc                                            [DEBUG  ]  No samples found: star
+[2019-10-11 10:13:23,942] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2019-10-11 10:13:23,947] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2019-10-11 10:13:23,951] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2019-10-11 10:13:23,956] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2019-10-11 10:13:23,960] multiqc                                            [DEBUG  ]  No samples found: kat
+[2019-10-11 10:13:23,963] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2019-10-11 10:13:23,967] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2019-10-11 10:13:23,972] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2019-10-11 10:13:23,976] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2019-10-11 10:13:23,979] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2019-10-11 10:13:23,983] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2019-10-11 10:13:23,987] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2019-10-11 10:13:23,991] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2019-10-11 10:13:23,996] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2019-10-11 10:13:24,000] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2019-10-11 10:13:24,004] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2019-10-11 10:13:24,008] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2019-10-11 10:13:28,375] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443245
+[2019-10-11 10:13:28,426] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443184
+[2019-10-11 10:13:28,471] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443187
+[2019-10-11 10:13:28,532] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443177
+[2019-10-11 10:13:28,586] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443183
+[2019-10-11 10:13:28,640] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443156
+[2019-10-11 10:13:28,706] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443248
+[2019-10-11 10:13:28,754] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443167
+[2019-10-11 10:13:28,796] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443206
+[2019-10-11 10:13:28,835] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443158
+[2019-10-11 10:13:28,886] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443188
+[2019-10-11 10:13:28,946] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443191
+[2019-10-11 10:13:28,998] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443226
+[2019-10-11 10:13:29,056] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443225
+[2019-10-11 10:13:29,115] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443239
+[2019-10-11 10:13:29,174] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443227
+[2019-10-11 10:13:29,213] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443247
+[2019-10-11 10:13:29,269] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443230
+[2019-10-11 10:13:29,325] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443159
+[2019-10-11 10:13:29,378] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443208
+[2019-10-11 10:13:29,447] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443255
+[2019-10-11 10:13:29,502] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443221
+[2019-10-11 10:13:29,558] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443237
+[2019-10-11 10:13:29,598] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443235
+[2019-10-11 10:13:29,641] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443190
+[2019-10-11 10:13:29,690] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443231
+[2019-10-11 10:13:29,743] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443147
+[2019-10-11 10:13:29,799] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443185
+[2019-10-11 10:13:29,861] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443229
+[2019-10-11 10:13:29,914] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443171
+[2019-10-11 10:13:29,962] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443153
+[2019-10-11 10:13:30,006] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443207
+[2019-10-11 10:13:30,058] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443263
+[2019-10-11 10:13:30,107] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443182
+[2019-10-11 10:13:30,178] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443216
+[2019-10-11 10:13:30,238] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443168
+[2019-10-11 10:13:30,287] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443224
+[2019-10-11 10:13:30,337] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443252
+[2019-10-11 10:13:30,383] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443165
+[2019-10-11 10:13:30,434] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443217
+[2019-10-11 10:13:30,473] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443179
+[2019-10-11 10:13:30,533] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443205
+[2019-10-11 10:13:30,597] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443209
+[2019-10-11 10:13:30,633] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443259
+[2019-10-11 10:13:30,689] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443257
+[2019-10-11 10:13:30,736] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443150
+[2019-10-11 10:13:30,788] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443173
+[2019-10-11 10:13:30,847] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443199
+[2019-10-11 10:13:30,899] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443223
+[2019-10-11 10:13:30,951] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443196
+[2019-10-11 10:13:30,999] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443232
+[2019-10-11 10:13:31,052] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443204
+[2019-10-11 10:13:31,101] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443220
+[2019-10-11 10:13:31,153] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443250
+[2019-10-11 10:13:31,198] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443155
+[2019-10-11 10:13:31,261] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443262
+[2019-10-11 10:13:31,319] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443181
+[2019-10-11 10:13:31,372] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443260
+[2019-10-11 10:13:31,428] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443210
+[2019-10-11 10:13:31,485] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443243
+[2019-10-11 10:13:31,538] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443200
+[2019-10-11 10:13:31,579] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443189
+[2019-10-11 10:13:31,643] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443160
+[2019-10-11 10:13:31,687] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443256
+[2019-10-11 10:13:31,735] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443166
+[2019-10-11 10:13:31,773] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443261
+[2019-10-11 10:13:31,817] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443176
+[2019-10-11 10:13:31,870] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443149
+[2019-10-11 10:13:31,919] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443186
+[2019-10-11 10:13:31,965] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443170
+[2019-10-11 10:13:32,017] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443240
+[2019-10-11 10:13:32,051] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443238
+[2019-10-11 10:13:32,108] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443157
+[2019-10-11 10:13:32,153] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443214
+[2019-10-11 10:13:32,207] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443258
+[2019-10-11 10:13:32,259] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443251
+[2019-10-11 10:13:32,312] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443219
+[2019-10-11 10:13:32,356] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443222
+[2019-10-11 10:13:32,403] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443198
+[2019-10-11 10:13:32,447] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443213
+[2019-10-11 10:13:32,489] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443161
+[2019-10-11 10:13:32,532] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443164
+[2019-10-11 10:13:32,579] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443241
+[2019-10-11 10:13:32,635] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443211
+[2019-10-11 10:13:32,689] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443193
+[2019-10-11 10:13:32,746] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443194
+[2019-10-11 10:13:32,796] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443244
+[2019-10-11 10:13:32,849] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443174
+[2019-10-11 10:13:32,899] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443163
+[2019-10-11 10:13:32,941] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443253
+[2019-10-11 10:13:33,002] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443246
+[2019-10-11 10:13:33,058] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443162
+[2019-10-11 10:13:33,106] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443180
+[2019-10-11 10:13:33,162] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443201
+[2019-10-11 10:13:33,210] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443233
+[2019-10-11 10:13:33,254] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443178
+[2019-10-11 10:13:33,303] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443234
+[2019-10-11 10:13:33,350] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443192
+[2019-10-11 10:13:33,413] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443203
+[2019-10-11 10:13:33,466] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443218
+[2019-10-11 10:13:33,529] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443152
+[2019-10-11 10:13:33,583] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443148
+[2019-10-11 10:13:33,619] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443175
+[2019-10-11 10:13:33,664] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443195
+[2019-10-11 10:13:33,709] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443197
+[2019-10-11 10:13:33,760] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443154
+[2019-10-11 10:13:33,809] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443212
+[2019-10-11 10:13:33,853] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443242
+[2019-10-11 10:13:33,907] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443172
+[2019-10-11 10:13:33,956] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443228
+[2019-10-11 10:13:33,996] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443169
+[2019-10-11 10:13:34,055] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443249
+[2019-10-11 10:13:34,110] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443236
+[2019-10-11 10:13:34,164] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443151
+[2019-10-11 10:13:34,206] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443215
+[2019-10-11 10:13:34,257] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443254
+[2019-10-11 10:13:34,302] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Duplicate sample name found! Overwriting: SRR2443202
+[2019-10-11 10:13:34,323] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 117 reports
+[2019-10-11 10:13:41,921] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2019-10-11 10:13:41,929] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2019-10-11 10:13:41,935] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2019-10-11 10:13:41,940] multiqc                                            [DEBUG  ]  No samples found: interop
+[2019-10-11 10:13:41,945] multiqc                                            [DEBUG  ]  No samples found: flash
+[2019-10-11 10:13:42,046] multiqc                                            [INFO   ]  Compressing plot data
+[2019-10-11 10:13:42,055] multiqc                                            [WARNING]  Previous MultiQC output found! Adjusting filenames..
+[2019-10-11 10:13:42,055] multiqc                                            [WARNING]  Use -f or --force to overwrite existing reports instead
+[2019-10-11 10:13:42,055] multiqc                                            [INFO   ]  Report      : multiqc_report_2.html
+[2019-10-11 10:13:42,055] multiqc                                            [INFO   ]  Data        : multiqc_data_2
+[2019-10-11 10:13:42,056] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/multiqc_fastqc.txt' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,061] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/mqc_fastqc_sequence_counts_plot_1.txt' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,066] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/mqc_fastqc_per_base_sequence_quality_plot_1.txt' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,071] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/mqc_fastqc_per_sequence_quality_scores_plot_1.txt' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,076] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Percentages.txt' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,082] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Counts.txt' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,088] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/mqc_fastqc_per_base_n_content_plot_1.txt' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,092] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/mqc_fastqc_sequence_length_distribution_plot_1.txt' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,098] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/mqc_fastqc_sequence_duplication_levels_plot_1.txt' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,103] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/mqc_fastqc_overrepresented_sequencesi_plot_1.txt' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,108] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/multiqc_general_stats.txt' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,112] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/multiqc_sources.txt' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,115] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpel1zerda/multiqc_data/multiqc_data.json' to '/GWSPH/home/tyden46/multiqc_data_2'
+[2019-10-11 10:13:42,378] multiqc                                            [INFO   ]  MultiQC complete
