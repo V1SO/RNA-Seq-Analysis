@@ -1,0 +1,175 @@
+[2019-12-02 13:12:53,658] multiqc                                            [DEBUG  ]  No MultiQC config found: /GWSPH/home/tyden46/.local/lib/python3.7/site-packages/multiqc_config.yaml
+[2019-12-02 13:12:53,658] multiqc                                            [DEBUG  ]  No MultiQC config found: /GWSPH/home/tyden46/.multiqc_config.yaml
+[2019-12-02 13:12:53,659] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2019-12-02 13:12:53,659] multiqc                                            [DEBUG  ]  Command used: /GWSPH/home/tyden46/.local/bin/multiqc Vikas/fastQFiles/
+[2019-12-02 13:12:54,351] multiqc                                            [WARNING]  MultiQC Version v1.8 now available!
+[2019-12-02 13:12:54,351] multiqc                                            [INFO   ]  This is MultiQC v1.7
+[2019-12-02 13:12:54,351] multiqc                                            [DEBUG  ]  Command     : /GWSPH/home/tyden46/.local/bin/multiqc Vikas/fastQFiles/
+[2019-12-02 13:12:54,351] multiqc                                            [DEBUG  ]  Working dir : /GWSPH/home/tyden46
+[2019-12-02 13:12:54,351] multiqc                                            [INFO   ]  Template    : default
+[2019-12-02 13:12:54,351] multiqc                                            [INFO   ]  Searching 'Vikas/fastQFiles/'
+[2019-12-02 13:12:54,352] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, dedup, damageprofiler, picard, prokka, samblaster, samtools, bamtools, jellyfish, vcftools, longranger, stacks, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, minionqc, clusterflow, bcl2fastq, interop, flash
+[2019-12-02 13:12:54,352] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpyysvou_w
+[2019-12-02 13:12:54,676] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L002_R1_001.fastq
+[2019-12-02 13:12:54,677] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L001_R2_001.fastq
+[2019-12-02 13:12:54,677] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L004_R2_001.fastq
+[2019-12-02 13:12:54,678] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L002_R2_001_fastqc.html
+[2019-12-02 13:12:54,678] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L002_R2_001.fastq
+[2019-12-02 13:12:54,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L004_R1_001.fastq
+[2019-12-02 13:12:54,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L002_R1_001_fastqc.html
+[2019-12-02 13:12:54,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L004_R2_001_fastqc.html
+[2019-12-02 13:12:54,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L001_R2_001_fastqc.html
+[2019-12-02 13:12:54,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L001_R1_001.fastq
+[2019-12-02 13:12:54,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L001_R2_001.fastq
+[2019-12-02 13:12:54,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L002_R2_001_fastqc.html
+[2019-12-02 13:12:54,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L004_R1_001_fastqc.html
+[2019-12-02 13:12:54,680] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L003_R1_001.fastq
+[2019-12-02 13:12:54,681] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L003_R1_001.fastq
+[2019-12-02 13:12:54,681] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L004_R1_001_fastqc.html
+[2019-12-02 13:12:54,681] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L002_R2_001_fastqc.html
+[2019-12-02 13:12:54,681] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L001_R1_001.fastq
+[2019-12-02 13:12:54,681] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L002_R2_001.fastq
+[2019-12-02 13:12:54,681] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L004_R1_001_fastqc.html
+[2019-12-02 13:12:54,681] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L004_R2_001_fastqc.html
+[2019-12-02 13:12:54,682] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L003_R1_001_fastqc.html
+[2019-12-02 13:12:54,682] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L003_R2_001_fastqc.html
+[2019-12-02 13:12:54,682] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L003_R1_001_fastqc.html
+[2019-12-02 13:12:54,682] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L003_R2_001_fastqc.html
+[2019-12-02 13:12:54,682] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L001_R2_001.fastq
+[2019-12-02 13:12:54,682] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L003_R1_001_fastqc.html
+[2019-12-02 13:12:54,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L003_R1_001_fastqc.html
+[2019-12-02 13:12:54,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L001_R1_001_fastqc.html
+[2019-12-02 13:12:54,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L001_R1_001.fastq
+[2019-12-02 13:12:54,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L003_R1_001.fastq
+[2019-12-02 13:12:54,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L001_R1_001_fastqc.html
+[2019-12-02 13:12:54,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L001_R1_001.fastq
+[2019-12-02 13:12:54,684] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L003_R1_001.fastq
+[2019-12-02 13:12:54,684] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L003_R1_001_fastqc.html
+[2019-12-02 13:12:54,684] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L002_R1_001.fastq
+[2019-12-02 13:12:54,684] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L002_R1_001_fastqc.html
+[2019-12-02 13:12:54,685] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L004_R1_001.fastq
+[2019-12-02 13:12:54,685] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L001_R1_001_fastqc.html
+[2019-12-02 13:12:54,685] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L003_R2_001_fastqc.html
+[2019-12-02 13:12:54,685] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L001_R2_001.fastq
+[2019-12-02 13:12:54,685] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L002_R2_001.fastq
+[2019-12-02 13:12:54,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L003_R2_001.fastq
+[2019-12-02 13:12:54,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L003_R2_001.fastq
+[2019-12-02 13:12:54,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L002_R2_001.fastq
+[2019-12-02 13:12:54,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L004_R2_001_fastqc.html
+[2019-12-02 13:12:54,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L001_R1_001_fastqc.html
+[2019-12-02 13:12:54,686] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L004_R1_001.fastq
+[2019-12-02 13:12:54,687] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L004_R1_001.fastq
+[2019-12-02 13:12:54,688] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L004_R2_001.fastq
+[2019-12-02 13:12:54,688] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L001_R1_001_fastqc.html
+[2019-12-02 13:12:54,688] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L001_R2_001_fastqc.html
+[2019-12-02 13:12:54,688] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L001_R2_001.fastq
+[2019-12-02 13:12:54,688] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L003_R2_001.fastq
+[2019-12-02 13:12:54,688] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L003_R2_001.fastq
+[2019-12-02 13:12:54,688] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L002_R2_001.fastq
+[2019-12-02 13:12:54,689] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L004_R1_001.fastq
+[2019-12-02 13:12:54,689] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L004_R1_001_fastqc.html
+[2019-12-02 13:12:54,689] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L003_R2_001_fastqc.html
+[2019-12-02 13:12:54,689] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L003_R2_001.fastq
+[2019-12-02 13:12:54,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L002_R2_001_fastqc.html
+[2019-12-02 13:12:54,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L002_R1_001_fastqc.html
+[2019-12-02 13:12:54,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L001_R1_001.fastq
+[2019-12-02 13:12:54,690] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L001_R2_001_fastqc.html
+[2019-12-02 13:12:54,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L002_R2_001_fastqc.html
+[2019-12-02 13:12:54,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L004_R2_001.fastq
+[2019-12-02 13:12:54,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L001_R2_001_fastqc.html
+[2019-12-02 13:12:54,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L004_R2_001.fastq
+[2019-12-02 13:12:54,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L002_R1_001.fastq
+[2019-12-02 13:12:54,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L002_R1_001.fastq
+[2019-12-02 13:12:54,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L002_R1_001.fastq
+[2019-12-02 13:12:54,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L001_R2_001_fastqc.html
+[2019-12-02 13:12:54,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L002_R1_001_fastqc.html
+[2019-12-02 13:12:54,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1217-Plasma24hr1-Soni-20190903_S3_L004_R2_001.fastq
+[2019-12-02 13:12:54,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1218-Plasma48hrTMZ2-Soni-20190903_S4_L004_R2_001_fastqc.html
+[2019-12-02 13:12:54,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L002_R1_001_fastqc.html
+[2019-12-02 13:12:54,692] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1215-Control2-Soni-20190903_S1_L003_R1_001.fastq
+[2019-12-02 13:12:54,692] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L004_R2_001_fastqc.html
+[2019-12-02 13:12:54,692] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L1216-Plasma1hr2-Soni-20190903_S2_L003_R2_001_fastqc.html
+[2019-12-02 13:12:54,692] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_L004_R1_001_fastqc.html
+[2019-12-02 13:12:56,965] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2019-12-02 13:12:56,991] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2019-12-02 13:12:57,020] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2019-12-02 13:12:57,066] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2019-12-02 13:12:57,105] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2019-12-02 13:12:57,147] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2019-12-02 13:12:57,190] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2019-12-02 13:12:57,232] multiqc                                            [DEBUG  ]  No samples found: quast
+[2019-12-02 13:12:57,259] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2019-12-02 13:12:57,276] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2019-12-02 13:12:57,307] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2019-12-02 13:12:57,369] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2019-12-02 13:12:57,401] multiqc                                            [DEBUG  ]  No samples found: busco
+[2019-12-02 13:12:57,465] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2019-12-02 13:12:57,488] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2019-12-02 13:12:57,514] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2019-12-02 13:12:57,593] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2019-12-02 13:12:57,646] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2019-12-02 13:12:57,686] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2019-12-02 13:12:57,720] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2019-12-02 13:12:57,753] multiqc                                            [DEBUG  ]  No samples found: happy
+[2019-12-02 13:12:57,802] multiqc                                            [DEBUG  ]  No samples found: homer
+[2019-12-02 13:12:57,830] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2019-12-02 13:12:57,865] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2019-12-02 13:12:57,923] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2019-12-02 13:12:57,991] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2019-12-02 13:12:58,019] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2019-12-02 13:12:58,074] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2019-12-02 13:12:58,091] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2019-12-02 13:12:58,113] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2019-12-02 13:12:58,148] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2019-12-02 13:12:58,247] multiqc                                            [DEBUG  ]  No samples found: picard
+[2019-12-02 13:12:58,317] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2019-12-02 13:12:58,354] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2019-12-02 13:12:58,398] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2019-12-02 13:12:58,449] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2019-12-02 13:12:58,466] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2019-12-02 13:12:58,509] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2019-12-02 13:12:58,544] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2019-12-02 13:12:58,579] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2019-12-02 13:12:58,648] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2019-12-02 13:12:58,677] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2019-12-02 13:12:58,720] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2019-12-02 13:12:58,746] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2019-12-02 13:12:58,799] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2019-12-02 13:12:58,816] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2019-12-02 13:12:58,831] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2019-12-02 13:12:58,861] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2019-12-02 13:12:58,891] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2019-12-02 13:12:58,919] multiqc                                            [DEBUG  ]  No samples found: star
+[2019-12-02 13:12:58,937] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2019-12-02 13:12:58,966] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2019-12-02 13:12:59,012] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2019-12-02 13:12:59,037] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2019-12-02 13:12:59,060] multiqc                                            [DEBUG  ]  No samples found: kat
+[2019-12-02 13:12:59,077] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2019-12-02 13:12:59,111] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2019-12-02 13:12:59,127] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2019-12-02 13:12:59,173] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2019-12-02 13:12:59,207] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2019-12-02 13:12:59,225] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2019-12-02 13:12:59,266] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2019-12-02 13:12:59,294] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2019-12-02 13:12:59,315] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2019-12-02 13:12:59,372] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2019-12-02 13:12:59,389] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2019-12-02 13:12:59,420] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2019-12-02 13:12:59,882] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 40 reports
+[2019-12-02 13:13:00,461] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2019-12-02 13:13:00,495] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2019-12-02 13:13:00,538] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2019-12-02 13:13:00,566] multiqc                                            [DEBUG  ]  No samples found: interop
+[2019-12-02 13:13:00,611] multiqc                                            [DEBUG  ]  No samples found: flash
+[2019-12-02 13:13:00,658] multiqc                                            [INFO   ]  Compressing plot data
+[2019-12-02 13:13:01,061] multiqc                                            [WARNING]  Previous MultiQC output found! Adjusting filenames..
+[2019-12-02 13:13:01,061] multiqc                                            [WARNING]  Use -f or --force to overwrite existing reports instead
+[2019-12-02 13:13:01,061] multiqc                                            [INFO   ]  Report      : multiqc_report_3.html
+[2019-12-02 13:13:01,061] multiqc                                            [INFO   ]  Data        : multiqc_data_3
+[2019-12-02 13:13:01,063] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpyysvou_w/multiqc_data/multiqc_fastqc.txt' to '/GWSPH/home/tyden46/multiqc_data_3'
+[2019-12-02 13:13:01,069] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpyysvou_w/multiqc_data/multiqc_general_stats.txt' to '/GWSPH/home/tyden46/multiqc_data_3'
+[2019-12-02 13:13:01,074] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpyysvou_w/multiqc_data/multiqc_sources.txt' to '/GWSPH/home/tyden46/multiqc_data_3'
+[2019-12-02 13:13:01,080] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpyysvou_w/multiqc_data/multiqc_data.json' to '/GWSPH/home/tyden46/multiqc_data_3'
+[2019-12-02 13:13:01,561] multiqc                                            [INFO   ]  MultiQC complete
